@@ -1,0 +1,92 @@
+/* Algemene opmaak */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ed1010;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #f5f0f0;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    background-image: url('../assets/cars\ image.jpg')
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#home h1 {
+    font-size: 36px;
+}
+
+/* Cast Section */
+#cast {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#cast h2 {
+    font-size: 24px;
+}
+
+/* Trailer Section */
+#trailer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+#trailer h2 {
+    font-size: 24px;
+}
+
+/* Reviews Section */
+#reviews {
+    background-color: #fff;
+    padding: 20px;
+}
+
+#reviews h2 {
+    font-size: 24px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+img{
+    width: 900px;
+    height: auto;
+}
